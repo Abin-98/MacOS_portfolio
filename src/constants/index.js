@@ -79,23 +79,23 @@ const blogPosts = [
     id: 1,
     date: "Sep 2, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+      "TypeScript: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    title: "MDN: the web developer's cheat sheet.",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://developer.mozilla.org/en-US/",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
+    title: "The Odin Project: a free, project-driven path to full-stack web dev mastery.",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://www.theodinproject.com/",
   },
 ];
 
@@ -142,10 +142,10 @@ const socials = [
   },
   {
     id: 2,
-    text: "Portfolio",
+    text: "Gmail Me",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "You are here!",
+    link: "https://mail.google.com/",
   },
   {
     id: 3,
@@ -194,19 +194,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/gal1.jpeg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/gal2.jpeg",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/gal3.jpeg",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/gal4.jpeg",
   },
 ];
 
@@ -239,7 +239,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "eCommerce Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -253,16 +253,16 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "forever-shopping.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://forever-frontend-six-sage.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "forever.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -288,11 +288,11 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[27vh] left-5",
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "AI LMS SaaS Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -306,16 +306,16 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "ai-lms-platform.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://www.google.com/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "ai-lms-platform.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -341,11 +341,11 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[53vh] left-30",
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Real-Time Stock Market Dashboard.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -358,16 +358,16 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "stock-market-app.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://www.google.com/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "stock-market-app.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -402,7 +402,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/abin.jpg",
+      imageUrl: "/images/abin.jpeg",
     },
     {
       id: 2,
@@ -411,11 +411,11 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/abin_2.jpg",
+      imageUrl: "/images/abin_2.jpeg",
     },
     {
       id: 3,
-      name: "conference-me.png",
+      name: "traveller-me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
